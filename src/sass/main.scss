@@ -1,18 +1,22 @@
 @import './utils/variables';
 @import './utils/global';
 @import './utils/placeholders';
-@import './components/header';
-@import './components/hero';
-@import './components/advantages';
-@import './components/problems';
-@import './components/how';
-@import './components/program';
-@import './components/benefits';
-@import './components/about';
-@import './components/guarantee';
-@import './components/reviews';
-@import './components/contacts';
-@import './components/footer';
+@import './components/card-title';
+@import './components/section-title'; 
+@import './components/counter-before';
+@import './layout/header';
+@import './layout/hero';
+@import './layout/advantages';
+@import './layout/problems';
+@import './layout/how';
+@import './layout/program';
+@import './layout/benefits';
+@import './layout/about';
+@import './layout/guarantee';
+@import './layout/reviews';
+@import './layout/contacts';
+@import './layout/footer';
+
 
 
 
