@@ -1,0 +1,24 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,KAAK,CAAC;EACF,oBAAoB,CAAA,QAAC;EACrB,sBAAsB,CAAA,QAAC;EACvB,qBAAqB,CAAA,QAAC;EACtB,qBAAqB,CAAA,QAAC;EACtB,kBAAkB,CAAA,QAAC;EACnB,oBAAoB,CAAA,QAAC;EACrB,mBAAmB,CAAA,QAAC;EACpB,cAAc,CAAA,QAAC;CAChB;;ACTH,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,wBAAwB;CACxC;;AAED,AAAA,EAAE,EAAC,EAAE,EAAC,EAAE,EAAC,EAAE,EAAC,EAAE,EAAC,EAAE,EAAC,CAAC,CAAC;EAChB,UAAU,EAAE,CAAC;EACb,aAAa,EAAE,CAAC;CACnB;;AACD,AAAA,EAAE,EAAC,EAAE,CAAC;EACF,UAAU,EAAE,IAAI;EAChB,UAAU,EAAE,CAAC;EACb,aAAa,EAAE,CAAC;EAChB,YAAY,EAAE,CAAC;CAClB;;AACD,AAAA,GAAG,CAAC;EACA,OAAO,EAAE,KAAK;CACjB;;AACD,AAAA,CAAC,CAAC;EACE,eAAe,EAAE,IAAI;CACxB",
+    "sources": [
+        "main.scss",
+        "utils/_variables.scss",
+        "utils/_global.scss",
+        "utils/_placeholders.scss",
+        "components/_header.scss",
+        "components/_hero.scss",
+        "components/_advantages.scss",
+        "components/_problems.scss",
+        "components/_how.scss",
+        "components/_program.scss",
+        "components/_benefits.scss",
+        "components/_about.scss",
+        "components/_guarantee.scss",
+        "components/_reviews.scss",
+        "components/_contacts.scss",
+        "components/_footer.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
