@@ -1,0 +1,26 @@
+.navigation{
+    display: none;
+}
+.header-container__btn{
+    display: none;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header {
+
+    position: relative;
+    width: 100vw;
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    border: 1px solid #ECECEC;
+
+}
+.header-container__burger-btn{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
