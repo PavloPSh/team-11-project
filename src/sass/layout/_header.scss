@@ -161,7 +161,9 @@ margin-top: 16px;
     position: fixed;
     z-index: 50;
     top: 0;
-
+    &--filled{
+    background-color: rgba(17, 21, 24, 0.9);
+    }
 }
 .header-container{
     position: relative;
