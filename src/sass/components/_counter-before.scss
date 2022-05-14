@@ -1,0 +1,11 @@
+.headings__counter {
+  counter-set: heading-counter;
+}
+.headings__counter p::after {
+  content: '0' counter(heading-counter);
+  counter-increment: heading-counter;
+  color: var(--subtitle-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 164.9%;
+}
