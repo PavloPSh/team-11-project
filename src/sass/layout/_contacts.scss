@@ -1,0 +1,70 @@
+.contacts__section {
+    background-color: #111518;
+    height: auto;
+    background-image:
+        url('../images/tablet/contacts-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 80% ;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+    
+    
+}
+
+.contacts__title {
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.contacts__text {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    color: #FFFFFF;
+    margin-top: 24px;
+}
+.contacts__form {
+    margin-top: 40px;
+}
+.contacts__form-input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+    height: 48px;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    padding-left: 28px;
+    color: #FFFFFF;
+    font-size: 14px;
+    &:not(:first-child) {
+        margin-top: 20px;
+    }
+}
+.contacts__button {
+    display: block;
+    background-color: #FF6B09;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 280px;
+    height: 48px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
