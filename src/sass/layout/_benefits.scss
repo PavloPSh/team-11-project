@@ -1,4 +1,7 @@
 .benefits {
+  max-width: 1680px;
+  margin-left: auto;
+  margin-right: auto;
   background: linear-gradient(
     180deg,
     var(--secondary-bg-color) 0%,
@@ -78,8 +81,4 @@
     background-color: var(--subtitle-text-color);
     margin-right: 6px;
   }
-}
-.benefits__title {
-}
-.card__title {
 }
