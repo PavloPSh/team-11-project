@@ -28,7 +28,6 @@
     width: 100vw;
     padding-top: 20px;
     padding-bottom: 20px;
-
 }
 .header-container__burger-btn{
     background: none;
@@ -114,7 +113,17 @@ margin-top: 16px;
     
     color: #FF6B09;
 }
+.content {
+    margin-top: 90px;
+    text-align: center;
+}
 @media screen and (min-width: 768px){
+    .header {
+            position: relative;
+            width: 100vw;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
     .header-container__btn {
         display: block;
         padding: 17px 45px;
@@ -131,7 +140,9 @@ margin-top: 16px;
         
         color: #FF6B09;
     }
-
+    .content {
+        margin-top: 168px;
+    }
     .header-container__burger-btn{
         margin-left: 40px;
     }
@@ -177,10 +188,7 @@ margin-top: 16px;
 .header-container{
     position: relative;
 }
-.content{
-margin-top: 90px;
-text-align: center;
-}
+
 
 @media screen and (min-width: 1680px) {
     .navigation{
@@ -219,6 +227,9 @@ text-align: center;
 
     .header-container__btn{
         margin: 0;
+    }
+    .content {
+        margin-top: 190px;
     }
 }
 
