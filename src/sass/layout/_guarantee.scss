@@ -10,7 +10,6 @@
   margin-bottom: 40px;
 }
 
-
 .color {
   color: var(--subtitle-text-color);
 }
@@ -20,7 +19,9 @@
   left: -7px;
   fill: var(--subtitle-text-color);
 }
-
+.garantee-wrapper {
+  background-color: #f1f1f1;
+}
 .guarantee-container {
   padding-top: 40px;
   padding-right: auto;
@@ -59,10 +60,14 @@
   .gaurantee-wrapper {
     padding-left: 15px;
     padding-right: 15px;
-    max-width: 768px;
+    // max-width: 768px;
 
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .garantee-wrapper {
+    background-color: #f1f1f1;
   }
   .section__title {
     font-family: 'Montserrat';
