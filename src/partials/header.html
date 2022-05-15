@@ -5,7 +5,7 @@
                 <use href="./images/symbol-defs.svg#logo"></use>
             </svg>
     
-        <nav class="navigation">
+        <nav id="menu" class="navigation">
         <ul class="nav-list">
             <li class="nav-list__item">
                 <a class="nav-list__link" href="#study" >Studying program</a>
@@ -41,18 +41,18 @@
             <use href="./images/symbol-defs.svg#close-burger-icon"></use>
         </svg>
     </button>
-        <ul class="mobile-menu__list">
+        <ul id="menu" class="mobile-menu__list">
             <li class="mobile-menu__item">
-                <a class="mobile-menu__link" href="">Studying program</a>
+                <a class="mobile-menu__link" href="#study">Studying program</a>
             </li>
             <li class="mobile-menu__item">
-                <a class="mobile-menu__link" href="">About</a>
+                <a class="mobile-menu__link" href="#about">About</a>
             </li>
             <li class="mobile-menu__item">
-                <a class="mobile-menu__link" href="">Training options</a>
+                <a class="mobile-menu__link" href="#training">Training options</a>
             </li>
             <li class="mobile-menu__item">
-                <a class="mobile-menu__link" href="">Contacts</a>
+                <a class="mobile-menu__link" href="#contacts">Contacts</a>
             </li>
         </ul>
         <button class="header-btn" type="button">consultation by phone</button>
@@ -65,26 +65,3 @@
 </header>
 
 
-<script>
-    (() => {
-        const refs = {
-            openMenuBtn: document.querySelector('[data-menu-open]'),
-            closeMenuBtn: document.querySelector('[data-menu-close]'),
-            menu: document.querySelector('[data-menu]'),
-        };
-
-        refs.openMenuBtn.addEventListener('click', toggleModal);
-        refs.closeMenuBtn.addEventListener('click', toggleModal);
-
-        function toggleModal() {
-            document.body.classList.toggle("modal-open")
-            refs.menu.classList.toggle('is-open');
-        }
-    })();
-    const header = document.querySelector(".header-scroll");
-        window.addEventListener("scroll", () => {
-            window.scrollY > 10
-                ? header.classList.add("header--filled")
-                : header.classList.remove("header--filled");
-        })
-</script>
