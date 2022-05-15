@@ -1,12 +1,20 @@
 .program {
+  overflow: hidden;
+
   margin-left: auto;
   margin-right: auto;
-  max-width: 1680px;
+
   background-color: var(--secondary-bg-color);
+  @media screen and (max-width: 767.98px) {
+    max-width: 480px;
+    padding-bottom: 150px;
+  }
   @media screen and (min-width: 768px) {
+    max-width: 768px;
     padding-bottom: 190px;
   }
   @media screen and (min-width: 1680px) {
+    max-width: 1680px;
     padding-bottom: 460px;
   }
 }
@@ -28,7 +36,7 @@
   &::before {
     position: absolute;
     top: 15px;
-    bottom: 60px;
+    bottom: 80px;
     left: 5.5px;
     content: '';
     display: inline-block;
@@ -40,9 +48,9 @@
     }
     @media screen and (min-width: 1680px) {
       top: -34.5px;
-      left: 0;
+      left: -305px;
       height: 1px;
-      width: 970px;
+      width: 1680px;
     }
   }
   @media screen and (max-width: 767.98px) {
@@ -169,17 +177,14 @@
 .program__pic {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: -125px;
 
   @media screen and (min-width: 768px) {
-    right: 70px;
+    right: 0;
     bottom: -150px;
   }
   @media screen and (min-width: 1680px) {
-    right: 940px;
+    left: 0;
     bottom: -420px;
-  }
-  @media screen and (max-width: 390.98px) {
-    display: none;
   }
 }

@@ -11,14 +11,15 @@
   color: #111518;
   margin-bottom: 40px;
 }
-.guarantee-section {
+.gaurantee-wrapper {
   padding-left: 15px;
   padding-right: 15px;
+  max-width: 767px;
 }
-.container {
-  padding-left: 15px;
-  padding-right: 15px;
-}
+// .container {
+//   padding-left: 15px;
+//   padding-right: 15px;
+// }
 .color {
   color: var(--subtitle-text-color);
 }
@@ -64,6 +65,14 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1679px) {
+  .gaurantee-wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 768px;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
   .section__title {
     font-family: 'Montserrat';
     font-style: normal;
@@ -110,6 +119,13 @@
 }
 
 @media screen and (min-width: 1680px) {
+  .gaurantee-wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1680px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .section__title {
     font-family: 'Montserrat';
     font-style: normal;

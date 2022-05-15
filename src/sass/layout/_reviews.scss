@@ -1,0 +1,306 @@
+// Reviews section
+.reviews-title {
+    margin-bottom: 24px;
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: 40px;
+    }
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+    @media screen and (min-width: 768px) {
+        text-align: left;
+    }
+}
+
+.swiper-wrapper {
+    margin-bottom: 40px;
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: 20px;
+    }
+
+    @media screen and (min-width: 1680px) {
+        margin-bottom: 40px;
+    }
+}
+
+.swiper-pagination {
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+
+
+    @media screen and (max-width: 479px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 200px !important;
+        height: 62px;
+        overflow: scroll;
+    }
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 6px;
+
+
+    @media screen and (min-width: 768px) {
+        margin: 16px;
+    }
+
+    @media screen and (min-width: 1680px) {
+        margin: 20px;
+    }
+}
+
+
+
+.swiper-pagination-bullet {
+    display: inline-block;
+    width: 54px;
+    height: 54px;
+    text-align: center;
+    color: transparent;
+    opacity: 1;
+    background-image: url('../images/img-basic/student-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        background-image: url('../images/img-basic/student-1@2x.png');
+    }
+
+    &:nth-child(2) {
+        background-image: url('../images/img-basic/student-2.png');
+
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image: url('../images/img-basic/student-2@2x.png');
+        }
+    }
+
+    &:nth-child(3) {
+        background-image: url('../images/img-basic/student-3.png');
+
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image: url('../images/img-basic/student-3@2x.png');
+        }
+    }
+
+    &:nth-child(4) {
+        background-image: url('../images/img-basic/student-4.png');
+
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image: url('../images/img-basic/student-4@2x.png');
+        }
+    }
+
+    &:nth-child(5) {
+        background-image: url('../images/img-basic/student-5.png');
+
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image: url('../images/img-basic/student-5@2x.png');
+        }
+    }
+
+    &:nth-child(6) {
+        background-image: url('../images/img-basic/student-6.png');
+
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image: url('../images/img-basic/student-6@2x.png');
+        }
+    }
+
+    &:nth-child(7) {
+        background-image: url('../images/img-basic/student-7.png');
+
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image: url('../images/img-basic/student-7@2x.png');
+        }
+    }
+}
+
+.swiper-pagination-bullet-active {
+    color: transparent;
+    outline: 2px solid var(--accent-color);
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: transparent;
+    background-repeat: no-repeat;
+    top: 98%;
+
+    @media screen and (min-width: 480px) {
+        top: 91%;
+    }
+
+    @media screen and (min-width: 768px) {
+        top: 50%;
+    }
+}
+
+.swiper-button-next {
+    background-image: url('../images/img-reviews/arrow-next.png');
+}
+
+.swiper-button-prev {
+    background-image: url('../images/img-reviews/arrow-prev.png');
+}
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 24px;
+
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+        justify-content: center;
+        padding: 40px 48px;
+    }
+
+    @media screen and (min-width: 1680px) {
+        flex-direction: row;
+        justify-content: center;
+        padding: 60px 80px;
+    }
+}
+
+.slider-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.graduate {
+    margin-bottom: 24px;
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: 20px;
+    }
+
+    @media screen and (min-width: 1680px) {
+        margin-bottom: 8px;
+    }
+}
+
+.graduate__link {
+    display: block;
+    margin-bottom: 24px;
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: 0;
+    }
+}
+
+.reviews {
+    position: relative;
+
+    @media screen and (min-width: 768px) {
+        width: 412px;
+        margin-left: 44px;
+    }
+
+    @media screen and (min-width: 1680px) {
+        width: 706px;
+        margin-left: 40px;
+    }
+}
+
+.reviews__title {
+    margin-bottom: 16px;
+
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 1.21;
+    text-align: center;
+    letter-spacing: 0.08em;
+    color: var(--subtitle-text-color);
+
+    @media screen and (min-width: 768px) {
+        font-size: 20px;
+        line-height: 1.20;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    @media screen and (min-width: 1680px) {
+        font-size: 30px;
+        line-height: 1.23;
+        margin-bottom: 8px;
+    }
+}
+
+.reviews__description {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.25;
+    text-align: center;
+    letter-spacing: 0.08em;
+    color: var(--tertiary-text-color);
+
+    @media screen and (min-width: 768px) {
+        text-align: left;
+    }
+
+    @media screen and (min-width: 1680px) {
+        font-size: 14px;
+        line-height: 1.21;
+        margin-bottom: 20px;
+    }
+}
+
+.reviews__text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.67;
+    text-align: center;
+    color: var(--secondary-text-color);
+
+    @media screen and (min-width: 768px) {
+        text-align: left;
+    }
+
+    @media screen and (min-width: 1680px) {
+        font-size: 18px;
+        line-height: 1.56;
+    }
+}
+
+.reviews__link {
+    text-decoration: underline;
+    color: var(--accent-color);
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.67;
+    text-align: center;
+
+    @media screen and (min-width: 1680px) {
+        font-size: 18px;
+        line-height: 1.56;
+    }
+}
