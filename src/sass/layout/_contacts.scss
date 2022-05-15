@@ -2,8 +2,8 @@
     background-color: #111518;
     // height: auto;
     background-image:
-        linear-gradient(rgba(0,0,0,0.5),
-                        rgba(0,0,0,0.5)),
+        linear-gradient(rgba(0,0,0,0.8),
+                        rgba(0,0,0,0.8)),
         url('../images/tablet/contacts-2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -11,8 +11,8 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     @media screen and (min-width: 768px) {
         background-image:
-        linear-gradient(rgba(0,0,0,0.5),
-                        rgba(0,0,0,0.5)),
+        linear-gradient(rgba(0,0,0,0.8),
+                        rgba(0,0,0,0.8)),
         url('../images/desktop/contacts.jpg');
         max-width: 1680px;
         background-position: 0 0 ;
