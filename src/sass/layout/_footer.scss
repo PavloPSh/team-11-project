@@ -1,0 +1,215 @@
+@media screen and (max-width: 767px) {
+  .light-theme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .light-theme__link {
+    display: block;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.21;
+    cursor: pointer;
+
+    letter-spacing: 0.08em;
+
+    color: #111518;
+  }
+  .light-theme__icon {
+    margin-right: 8px;
+  }
+  .instagram-icon {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .light-theme__item {
+    margin-top: 21px;
+  }
+  .dark-theme {
+    background: #111518;
+  }
+  .dark-theme__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 2;
+    text-align: center;
+
+    color: #b9b9b9;
+  }
+  .dark-theme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1679px) {
+  .light-theme__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  .light-theme__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  .light-theme {
+    padding-top: 40px;
+    padding-right: 32px;
+
+    padding-bottom: 40px;
+    padding-left: 32px;
+  }
+
+  .light-theme__logo-icon {
+    width: 128px;
+    height: 45px;
+  }
+  .light-theme__link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.08em;
+
+    color: #111518;
+    margin-right: 50px;
+  }
+  .light-theme__icon {
+    margin-right: 8px;
+    width: 24px;
+    height: 23.06px;
+  }
+  .light-theme__contact {
+    display: flex;
+    flex-direction: row;
+  }
+  .light-theme__instagram {
+    position: relative;
+  }
+  .light-theme__instagram::before {
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 40px;
+    left: -44px;
+
+    border: 1px solid #b9b9b9;
+  }
+
+  .dark-theme {
+    background: #111518;
+  }
+  .dark-theme__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 2;
+
+    color: #b9b9b9;
+
+    color: #b9b9b9;
+  }
+  .dark-theme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+}
+@media screen and (min-width: 1680px) {
+  .light-theme {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .light-theme__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .light-theme__wrapper {
+    display: flex;
+
+    align-items: center;
+  }
+  .light-theme__list {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .light-theme {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .light-theme__logo-icon {
+    width: 128px;
+    height: 45px;
+  }
+  .light-theme__link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.23;
+
+    text-align: center;
+    letter-spacing: 0.08em;
+
+    color: #111518;
+    margin-right: 40px;
+  }
+  .light-theme__icon {
+    margin-right: 16px;
+    width: 30px;
+    height: 28.82px;
+  }
+  .light-theme__instagram {
+    position: relative;
+  }
+  .light-theme__instagram::before {
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 40px;
+    left: -44px;
+
+    border: 1px solid #b9b9b9;
+  }
+  .dark-theme {
+    background: #111518;
+  }
+  .dark-theme__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 2;
+
+    color: #b9b9b9;
+  }
+  .dark-theme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 26px;
+    padding-bottom: 27px;
+  }
+}
