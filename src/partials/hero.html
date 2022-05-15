@@ -1,15 +1,34 @@
 <section class="section">
-    <div class="container"> 
-        <div class="hero">
+    <div class="hero-container container"> 
+        <div class="hero-info">
+            <div class="hero">
             <h2 class="hero__title section-title">Complex preparation for English UPE</h2>
+            </div>
+            <div class="hero-main">
+                <p class="hero-main__text">It won&#180;t be easy.</p>
+                <h3 class="hero-main__title">But you&#180;re guaranteed to get</h3>
+                <p class="hero-main__points">+25 points</p>
+            </div>
+            <div class="hero-button">
+                <button class="hero-button__order" type="button"> I want a free lesson </button>
+            </div>
         </div>
-        <div class="hero-main">
-            <p class="hero-main__text">It won&#180t be easy.</p>
-            <h3 class="hero-main__title">But you&#180re guaranteed to get</h3>
-            <p class="hero-main__points">+25 points</p>
-        </div>
-        <div class="hero-button">
-            <button class="hero-button__order" type="button">I want a free lesson</button>
+        <div class="hero-image"> 
+        <picture>
+            <source
+            srcset="images/desktop/hero.png 1x, images/desktop/hero@2x.png 2x"
+            media="(min-width: 1680px)"
+            />
+            <source
+            srcset="images/tablet/hero.png 1x, images/tablet/hero@2x.png 2x"
+            media="(min-width: 768px)"
+            />
+            <source
+            srcset="images/mobile/hero.png 1x, images/mobile/hero@2x.png 2x"
+            media="(max-width: 767.98px)"
+            />
+            <img class="hero-image__card" src="images/mobile/hero.png" alt="picture">
+        </picture>
         </div>
     </div> 
 </section>
