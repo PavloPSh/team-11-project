@@ -1,0 +1,102 @@
+.advantages__item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    &:not(:last-child) {
+    margin-bottom: 24px;
+}
+}
+
+.advantages__item_first::before {
+    content: '';
+    display: block;
+    min-width: 59px;
+    height: 60px;
+    outline: none;
+    background-image: url('/images/advantages-person.svg');
+    background-size: cover;
+    margin-right: 12px;
+}
+
+.advantages__item_second::before {
+    content: '';
+    display: block;
+    min-width: 59px;
+    height: 60px;
+    outline: none;
+    background-image: url('/images/advantages-teaching.svg');
+    background-size: cover;
+    margin-right: 12px;
+}
+
+.advantages__item_third::before {
+    content:'';
+    display: block;
+    min-width:59px;
+    height: 60px;
+    outline: none;
+    background-image: url('/images/advantages-financial.svg');
+    background-size: cover;
+    margin-right: 12px;
+}
+
+.advantages__description {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.65;
+    letter-spacing: 0.08em;
+    color: var(--primary-text-color);
+}
+
+@media screen and (min-width: 768px) {
+    .advantages__list {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+    }
+
+    .advantages__item {
+        margin-bottom: 0;
+        width: 215px;
+
+        &.advantages__item:not(:last-child) {
+            margin-bottom: 0;
+        }
+    }
+
+    .advantages__description {
+        text-align:left;
+    }
+
+}
+
+@media screen and (min-width: 1680px) {
+    .advantages__description {
+        font-size: 20px;
+    }
+
+    .advantages__item {
+        width: 448px;
+    }
+
+        .advantages__item_first::before{
+            min-width: 100px;
+            height: 102px;
+            margin-right: -18px;
+            background-image: url('/images/advantages-person-desktop.svg');
+        } 
+        .advantages__item_second::before{
+            min-width: 100px;
+            height: 102px;
+            margin-right: -18px;
+            background-image: url('/images/advantages-teaching-desktop.svg');
+        } 
+        .advantages__item_third::before{
+            min-width: 100px;
+            height: 102px;
+            margin-right: -18px;
+            background-image: url('/images/advantages-financial-desktop.svg');
+        }
+
+}
