@@ -16,12 +16,12 @@
     }
 }
 .logo-icon{
-    width: 80px;
-    height: 29px;
+    width: 128px;
+    height: 45px;
 }
 .logo-icon-dark{
-    width: 80px;
-    height: 29px;
+    width: 128px;
+    height: 45px;
 }
 .header {
     position: relative;
@@ -124,6 +124,9 @@ margin-top: 16px;
             padding-top: 40px;
             padding-bottom: 40px;
         }
+        .mobile-menu {
+        padding-top: 20px;
+        }
     .header-container__btn {
         display: block;
         padding: 17px 45px;
@@ -151,8 +154,7 @@ margin-top: 16px;
     }
     .mobile-menu__list{
         position: absolute;
-        margin-top: 80px;
-        top: 20%;
+        top: 165px;
         left: 50%;
         margin-right: -35%;
         transform: translate(-35%, -40%)
