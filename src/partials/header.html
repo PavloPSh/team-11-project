@@ -31,7 +31,7 @@
             <form class="contacts__form">
                 <div class="contacts__form-block">
                     <input class="contacts__form-input" type="text" name="name" placeholder="Name*" required minlength="2">
-                    <input class="contacts__form-input" type="tel" name="tel" placeholder="Phone*" required>
+                    <input class="contacts__form-input" type="tel" name="tel" placeholder="Phone*" required pattern="\+?[0-9\s\-\(\)]+" title="Номер в формате +3 (000) 000-00-00">
                 </div>
                 <button class="contacts__button" type="submit">
                     We will call you back
