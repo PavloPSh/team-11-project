@@ -1,0 +1,158 @@
+.about{
+    text-align: start;
+}
+.section__about{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.about__pic{
+    display: block;
+    padding: 20px 0 ;
+}
+.teacher-name{
+font-family: 'Montserrat';
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.08em;
+color: var(--primary-text-color);   
+}
+
+.experience{
+    margin-top: 20px;
+}
+.experience__history{
+   font-weight: 500;
+   font-size: 12px;
+   line-height: 20px;
+   color: var(--tertiary-text-color);
+   
+   padding-bottom: 8px;
+   
+  &::before {
+    content: '';
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: var(--accent-color);
+    margin-bottom: 24px;
+     }
+}
+
+.experience__item{
+    
+     width: 100%;
+     display: flex;
+     align-items: start;
+    margin-bottom: 20px;
+    
+    &:not(:last-child){
+        margin-bottom: 20px;
+    }
+}
+
+.experience__description{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.06em;
+    color: var(--secondary-bg-color);
+}
+
+.experience__checkmark::before {
+      content: '';
+      display: inline-block;
+      min-width: 16px;
+      height: 14px;
+      outline: none;
+      background-image: url('../images/about/checkmark.svg');
+  
+     margin-right: 8px;
+     background-repeat: no-repeat;
+     }
+        
+.certificate-link {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: var(--accent-color);
+}
+.name-underline::after{
+    content: ' ';
+    display: block; 
+    height: 1;
+    border: 1px solid var(--tertiary-text-color);
+    border-radius: 1px;
+    background-color:var(--tertiary-text-color) ;
+    margin-top:8px;
+}
+
+@media screen and (min-width: 768px){
+    .about_section{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-top: 40px;   
+    }
+     .about__pic {
+         padding:0;
+     }
+    .description-teacher-section{
+        width: 402px;
+    }
+    
+   .experience__history{
+   padding-bottom: 24px;
+   font-size: 10px;
+   & ::before{
+    margin-bottom: 24px;
+    }
+   }  
+      .experience__description {
+            font-size: 12px;
+            line-height: 15px;
+        }
+}
+
+@media screen and (min-width: 1680px) {
+    .about_section {
+            justify-content: flex-start;
+            margin-top: 80px;
+        }
+     .about__pic {
+        margin-right: 172px;
+     }
+        .teacher-name{
+        font-size: 30px;
+        line-height: 37px;
+        }
+       
+    .description-teacher-section {
+         min-width: 668px;
+     }
+        .experience__checkmark::before {
+            min-width: 24px;
+            height: 20px;
+            margin-right: 35px;   
+        }
+       .experience{
+           margin-top: 32px;
+       }
+
+      .experience__history,
+      .certificate-link {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        }
+      .experience__description {
+        font-size: 16px;
+        line-height: 20px;
+      }
+      .history-item:not(:last-child){
+          margin-bottom: 10px;
+      }
+}
