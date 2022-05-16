@@ -26,7 +26,19 @@
         </nav>
         <button class="header-container__btn" type="button" data-modal-open>consultation by phone</button>
         
-        <div class="backdrop" data-modal></div>
+        <div class="backdrop is-hidden" data-modal>
+
+            <form class="contacts__form">
+                <div class="contacts__form-block">
+                    <input class="contacts__form-input" type="text" name="name" placeholder="Name*" required minlength="2">
+                    <input class="contacts__form-input" type="tel" name="tel" placeholder="Phone*" required>
+                </div>
+                <button class="contacts__button" type="submit">
+                    We will call you back
+                </button>
+            </form>
+
+        </div>
 
 
 
