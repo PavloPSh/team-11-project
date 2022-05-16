@@ -7,6 +7,7 @@
             closeMenuBox: document.querySelector('[love-you]'),
             closeMenuSize: document.querySelector('[list-size]'),
             closeMenuList: document.querySelector('[list-like]'),
+            closeMenuBen: document.querySelector('[ben-like]'),
             menu: document.querySelector('[data-menu]'),
         };
 
@@ -16,6 +17,7 @@
         refs.closeMenuBox.addEventListener('click', toggleModal);
         refs.closeMenuSize.addEventListener('click', toggleModal);
         refs.closeMenuList.addEventListener('click', toggleModal);
+        refs.closeMenuBen.addEventListener('click', toggleModal);
         function toggleModal() {
             document.body.classList.toggle("modal-open")
             refs.menu.classList.toggle('is-open');
