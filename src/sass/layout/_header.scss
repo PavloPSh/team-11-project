@@ -54,6 +54,7 @@
     right: 20px;
     border: none;
     padding: 0;
+    cursor: pointer;
 
 }
 
@@ -155,6 +156,8 @@ margin-top: 16px;
         text-align: center;
         letter-spacing: 0.08em;
         text-transform: uppercase;
+
+        cursor: pointer;
         
         color: var(--subtitle-text-color);
     }
@@ -282,6 +285,7 @@ body.modal-open{
     padding: 0;
     width: 280px;
     height: 49px;
+    cursor: pointer;
 }
 
 
