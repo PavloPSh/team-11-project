@@ -1,4 +1,4 @@
-.section--background-img {
+.section-hero {
     background-image: url(../images/hero-bg.png);
     background-size: cover;
     background-position: center;
@@ -50,26 +50,29 @@
 }
 
 .hero-button {
-    display: flex;
-    justify-content: center;
-}
-
-.hero-button__order {
+    margin-right: auto;
+    margin-left: auto;
     width: 280px;
-    height: 48px;
     padding: 14px 0px;
     margin-top: 40px;
     background-color: var(--accent-color);
+    border: transparent;
+    cursor: pointer;
+    text-align: center;
+
+    
+}
+
+.hero-button__order {
     font-weight: 700;
     font-size: 12px;
     line-height: 1.25;
-    text-align: center;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    border: transparent;
-    cursor: pointer;
     color: #ffffff;
 }
+
+
 
 .hero-image {
     display: flex;
@@ -90,11 +93,9 @@
 
     .hero-button {
         display: block;
-    }
-
-    .hero-button__order {
-        width: 260px;
         margin-top: 48px;
+        width: 260px;
+        margin-left: 0px;
     }
 
     .hero-image {
@@ -104,6 +105,10 @@
 
 @media screen and (min-width: 1680px) {
     .hero-container {
+        justify-content: space-between;
+    }
+
+    .container--display {
         justify-content: space-between;
     }
 
@@ -123,9 +128,11 @@
         color: var(--primary-text-color);
     }
 
-    .hero-button__order {
+    .hero-button {
         width: 354px;
-        height: 70px;
+        padding: 27px 0px;
+    }
+    .hero-button__order {
         font-size: 14px;
         line-height: 1.21;
         letter-spacing: 0.14em;
