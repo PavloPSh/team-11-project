@@ -11,7 +11,7 @@
         <nav class="navigation">
         <ul class="nav-list">
             <li class="nav-list__item">
-                <a class="nav-list__link" href="#study" >Studying program</a>
+                <a class="nav-list__link" href="#study" data-menu-close>Studying program</a>
             </li>
             <li class="nav-list__item">
                 <a href="#about" class="nav-list__link">About</a>
@@ -24,7 +24,24 @@
             </li>
         </ul>
         </nav>
-        <button class="header-container__btn" type="button">consultation by phone</button>
+        <button class="header-container__btn" type="button" data-modal-open>consultation by phone</button>
+        
+        <div class="backdrop is-hidden" data-modal>
+
+            <form class="contacts__form">
+                <div class="contacts__form-block">
+                    <input class="contacts__form-input" type="text" name="name" placeholder="Name*" required minlength="2">
+                    <input class="contacts__form-input" type="tel" name="tel" placeholder="Phone*" required>
+                </div>
+                <button class="contacts__button" type="submit">
+                    We will call you back
+                </button>
+            </form>
+
+        </div>
+
+
+
         <button class="header-container__burger-btn" type="button" data-menu-open>
             <svg class="burger-btn__icon" width="21" height="12">
                 <use href="./images/symbol-defs.svg#burger-icon"></use>
@@ -39,26 +56,28 @@
             <use class="icon" href="./images/symbol-defs.svg#burger-logo" ></use>
         </svg>
         
-    <button class="mobile-menu__close-btn" data-menu-close>
+    <button class="mobile-menu__close-btn" be-like>
         <svg class="close-btn__icon" width="16" height="16">
             <use href="./images/symbol-defs.svg#close-burger-icon"></use>
         </svg>
     </button>
         <ul id="menu" class="mobile-menu__list">
             <li class="mobile-menu__item">
-                <a class="mobile-menu__link" href="#study">Studying program</a>
+                <a class="mobile-menu__link" href="#study" like-be>Studying program</a>
             </li>
             <li class="mobile-menu__item">
-                <a class="mobile-menu__link" href="#about">About</a>
+                <a class="mobile-menu__link" href="#about" love-you>About</a>
             </li>
             <li class="mobile-menu__item">
-                <a class="mobile-menu__link" href="#training">Training options</a>
+                <a class="mobile-menu__link" href="#training" list-size>Training options</a>
             </li>
             <li class="mobile-menu__item">
-                <a class="mobile-menu__link" href="#contacts">Contacts</a>
+                <a class="mobile-menu__link" href="#contacts" list-like>Contacts</a>
             </li>
         </ul>
-        <button class="header-btn" type="button">consultation by phone</button>
+        <a href="#contacts">
+        <button class="header-btn" type="button" ben-like>consultation by phone</button>
+        </a>
     </div>
 </div>
 
