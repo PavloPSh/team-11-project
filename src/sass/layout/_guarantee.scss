@@ -26,13 +26,10 @@
   padding-bottom: 40px;
   padding-left: 27px;
 }
-// .guarantee {
-//   max-width: 480px;
-// }
 .guarantee__text {
   position: relative;
   font-family: 'Montserrat';
-  font-style: normal;
+  text-align: left;
   font-weight: 500;
   font-size: 12px;
   line-height: 1.66;
@@ -41,18 +38,34 @@
 }
 .guarantee__item {
   position: relative;
-}
 
-.guarantee__item:not(:last-child) {
-  border-left: 1px dashed #b9b9b9;
-  margin-bottom: 24px;
+  &::before {
+    position: absolute;
+    left: -10px;
+    content: url('/images/svg icon-campFire/campFire.svg');
+    display: inline-block;
+    width: 22px;
+    height: 30px;
+    outline: none;
+    margin-right: 8px;
+    background-repeat: no-repeat;
+
+    @media screen and (max-width: 1679.98px) {
+      content: url('/images/svg icon-campFire/campFiresmall.svg');
+      left: -7px;
+    }
+  }
+
+  &:not(:last-child) {
+    border-left: 1px dashed #b9b9b9;
+    padding-bottom: 24px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1679px) {
   .gaurantee-wrapper {
     padding-left: 15px;
     padding-right: 15px;
-
 
     margin-left: auto;
     margin-right: auto;
@@ -65,10 +78,6 @@
   .guarantee__text {
     padding-left: 32px;
     max-width: 520px;
-  }
-  .guarantee__item:not(:last-child) {
-    border-left: 1px dashed #b9b9b9;
-    margin-bottom: 24px;
   }
 }
 
@@ -84,8 +93,8 @@
     font-size: 46px;
   }
   .guarantee-container {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     padding-left: 291px;
   }
   .guarantee__text {
