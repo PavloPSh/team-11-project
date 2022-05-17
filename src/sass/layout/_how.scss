@@ -49,10 +49,9 @@
 
     @media screen and(min-width:768px){
     width: calc((100% - 2 * 33px) / 2);
-    height: 336px;
-    margin-right: 32px;
+     margin-right: 32px;
     margin-bottom: 24px;
-    padding: 40px;
+    padding: 51px;
     @media screen and(max-width:1679.98px){
      &:nth-child(2n){
          margin-right: 0;
@@ -64,10 +63,9 @@
     }
     @media screen and(min-width:1680px) {
      width: calc((100% - 3 * 22px) / 3);
-     height: 492px;
      margin-right: 32px;
      margin-bottom: 32px;
-     padding: 90px;
+     padding: 95px;
 
     &:nth-last-child(-n + 3) {
         margin-bottom: 00px;
