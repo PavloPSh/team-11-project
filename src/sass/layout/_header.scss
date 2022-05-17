@@ -21,18 +21,18 @@
     
     }
 }
-.logo-icon{
-    width: 128px;
-    height: 45px;
-}
-.logo-icon-light{
-    width: 128px;
-    height: 45px;
-}
-.logo-icon-dark{
-    width: 128px;
-    height: 45px;
-}
+// .logo-icon{
+//     width: 128px;
+//     height: 45px;
+// }
+// .logo-icon-light{
+//     width: 128px;
+//     height: 45px;
+// }
+// .logo-icon-dark{
+//     width: 128px;
+//     height: 45px;
+// }
 .header {
     position: relative;
     width: 100vw;
@@ -322,4 +322,14 @@ body.modal-open{
 }
 body.menu-open {
     overflow: hidden;
+}
+.scroll-top{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 20px;
+    right: 20px;
+    transform: rotate(270deg);
+    z-index: 10000;
 }
